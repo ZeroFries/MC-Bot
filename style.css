@@ -1,0 +1,29 @@
+#container{
+		height: 1000px;
+		width: 1000px;
+		background-color: lightblue;
+		margin: auto;
+		position: relative;
+}
+
+#bot{
+		height: 25px;
+		width: 25px;
+		background-color: black;
+		border: 1px solid black;
+		border-radius: 13px;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+}
+
+#bot #face{
+		height: 4px;
+		width: 4px;
+		background-color: red;
+		border: 1px solid red;
+		border-radius: 2px;
+		position: relative;
+		top: 10px;
+		left: 10px;
+}
